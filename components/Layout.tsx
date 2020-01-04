@@ -16,13 +16,7 @@ const Layout: React.FC<Props> = ({ children }) => {
         <meta name='theme-color' content='#0069A0' />
         <link rel='shortcut icon' type='image/x-icon' href='/img/favicon.png' />
       </Head>
-      <header>hi</header>
       {children}
-      <footer className='footer'>
-        <div className='content has-text-centered'>
-          <span>I'm the footer</span>
-        </div>
-      </footer>
     </>
   )
 }
