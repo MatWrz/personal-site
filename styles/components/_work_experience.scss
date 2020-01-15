@@ -1,0 +1,19 @@
+.work-experience {
+  .work-experience-heading {
+    margin: 0.2em 0;
+  }
+  .work-experience-heading-employer {
+    font-size: 1.4em;
+  }
+  .work-experience-heading-date {
+    color: rgba(0, 0, 0, 0.54);
+  }
+  .work-experience-accomplishments {
+    padding-left: 1.4em;
+    margin: 0.5em 0;
+    li {
+      list-style-type: disc;
+      list-style-position: outside;
+    }
+  }
+}

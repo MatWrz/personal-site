@@ -3,6 +3,10 @@ import Head from 'next/head'
 import Layout from '../components/Layout'
 import HeroBanner from '../components/HeroBanner'
 import Footer from '../components/Footer'
+import Heading from '../components/Heading'
+import WorkExperienceList from '../components/WorkExperienceList'
+import data from '../data/work_experience.json'
+import { WorkExperience } from '../interfaces'
 
 const IndexPage: NextPage<{}> = () => {
   const EMAIL = 'mathieu.wrzesien@outlook.com'
@@ -10,6 +14,7 @@ const IndexPage: NextPage<{}> = () => {
     'I’m Mathieu Wrzesien, a software developer living in Montréal, currently working for'
   const EMPLOYER = 'Vention'
   const EMPLOYER_URL = 'https://www.vention.io'
+  const workExperiences: ReadonlyArray<WorkExperience> = data
 
   return (
     <>
@@ -18,10 +23,16 @@ const IndexPage: NextPage<{}> = () => {
         <meta name='description' content={INTRO_TEXT + ' ' + EMPLOYER} />
       </Head>
       <Layout>
-        <HeroBanner
-          text={INTRO_TEXT}
-          employer={{ href: EMPLOYER_URL, text: EMPLOYER }}
-        />
+        <main>
+          <HeroBanner
+            text={INTRO_TEXT}
+            employer={{ href: EMPLOYER_URL, text: EMPLOYER }}
+          />
+          <section>
+            <Heading text='Work Experience' />
+            <WorkExperienceList workExperiences={workExperiences} />
+          </section>
+        </main>
         <Footer
           email={{
             href: 'mailto:' + EMAIL,
