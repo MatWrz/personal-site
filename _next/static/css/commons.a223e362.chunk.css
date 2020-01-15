@@ -84,6 +84,9 @@ body {
   border-top: 1px solid rgba(0, 0, 0, 0.12);
   padding: 1em 0;
   text-align: center; }
+  @media (max-width: 50em) {
+    .footer {
+      font-size: 1.3em; } }
 
 .anchor {
   color: #005ea5; }
