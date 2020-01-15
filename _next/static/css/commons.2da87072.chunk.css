@@ -1,0 +1,125 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+ul {
+  list-style: none; }
+
+button,
+input,
+select,
+textarea {
+  margin: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::before, *::after {
+  box-sizing: inherit; }
+
+img,
+video {
+  height: auto;
+  max-width: 100%; }
+
+iframe {
+  border: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+  td:not([align]),
+  th:not([align]) {
+    text-align: left; }
+
+body {
+  background: white;
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: #0b0c0c;
+  line-height: 1.5;
+  padding: 1.5em 1em; }
+
+.hero-banner h1 {
+  font-size: 2em; }
+
+.footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 1em 0;
+  text-align: center; }
+
+.anchor {
+  color: #005ea5; }
+  .anchor:hover {
+    color: #2b8cc4; }
+
+.heading {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  font-weight: bold;
+  font-size: 1.6em;
+  margin: 0.2em 0; }
+
+.work-experience .work-experience-heading {
+  margin: 0.2em 0; }
+
+.work-experience .work-experience-heading-employer {
+  font-size: 1.4em; }
+
+.work-experience .work-experience-heading-date {
+  color: rgba(0, 0, 0, 0.54); }
+
+.work-experience .work-experience-accomplishments {
+  padding-left: 1.4em;
+  margin: 0.5em 0; }
+  .work-experience .work-experience-accomplishments li {
+    list-style-type: disc;
+    list-style-position: outside; }
+
+.technology {
+  font-size: 0.8em;
+  padding: 0.5em;
+  border: 1px solid #666;
+  background-color: #f7f7f7;
+  margin: 0.3em;
+  border-radius: 4px; }
+
+.technology-list li {
+  display: inline-block; }
+
