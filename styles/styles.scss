@@ -1,4 +1,8 @@
+// CSS styles reset
 @import '../node_modules/minireset.css/minireset.sass';
+
+// Pages
+@import './pages/home.scss';
 
 // Components
 @import './components/layout.scss';

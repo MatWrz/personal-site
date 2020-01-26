@@ -28,7 +28,7 @@ const IndexPage: NextPage<{}> = () => {
             text={INTRO_TEXT}
             employer={{ href: EMPLOYER_URL, text: EMPLOYER }}
           />
-          <section>
+          <section className='work-experience-section'>
             <Heading text='Work Experience' />
             <WorkExperienceList workExperiences={workExperiences} />
           </section>
