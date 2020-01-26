@@ -23,11 +23,13 @@ const IndexPage: NextPage<{}> = () => {
         <meta name='description' content={INTRO_TEXT + ' ' + EMPLOYER} />
       </Head>
       <Layout>
-        <main>
+        <header>
           <HeroBanner
             text={INTRO_TEXT}
             employer={{ href: EMPLOYER_URL, text: EMPLOYER }}
           />
+        </header>
+        <main>
           <section className='work-experience-section'>
             <Heading text='Work Experience' />
             <WorkExperienceList workExperiences={workExperiences} />
