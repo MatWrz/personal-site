@@ -68,6 +68,9 @@ th {
   th:not([align]) {
     text-align: left; }
 
+.work-experience-section {
+  padding: 1.5em 0 0 0; }
+
 body {
   background: white;
   margin: 0 auto;
@@ -99,21 +102,20 @@ body {
   font-size: 1.6em;
   margin: 0.2em 0; }
 
-.work-experience .work-experience-heading {
-  margin: 0.2em 0; }
-
-.work-experience .work-experience-heading-employer {
-  font-size: 1.4em; }
-
-.work-experience .work-experience-heading-date {
-  color: rgba(0, 0, 0, 0.54); }
-
-.work-experience .work-experience-accomplishments {
-  padding-left: 1.4em;
-  margin: 0.5em 0; }
-  .work-experience .work-experience-accomplishments li {
-    list-style-type: disc;
-    list-style-position: outside; }
+.work-experience {
+  padding: 0.2em 0; }
+  .work-experience .work-experience-heading {
+    margin: 0.2em 0; }
+  .work-experience .work-experience-heading-employer {
+    font-size: 1.4em; }
+  .work-experience .work-experience-heading-date {
+    color: rgba(0, 0, 0, 0.54); }
+  .work-experience .work-experience-accomplishments {
+    padding-left: 1.4em;
+    margin: 0.5em 0; }
+    .work-experience .work-experience-accomplishments li {
+      list-style-type: disc;
+      list-style-position: outside; }
 
 .technology {
   font-size: 0.8em;
