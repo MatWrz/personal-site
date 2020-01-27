@@ -105,11 +105,11 @@ body {
 .work-experience {
   padding: 0.2em 0; }
   .work-experience .work-experience-heading {
+    font-size: 1.4em;
     margin: 0.2em 0; }
-  .work-experience .work-experience-heading-employer {
-    font-size: 1.4em; }
-  .work-experience .work-experience-heading-date {
-    color: rgba(0, 0, 0, 0.54); }
+    .work-experience .work-experience-heading small {
+      font-size: 0.8em;
+      color: rgba(0, 0, 0, 0.54); }
   .work-experience .work-experience-accomplishments {
     padding-left: 1.4em;
     margin: 0.5em 0; }
