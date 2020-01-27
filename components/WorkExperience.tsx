@@ -14,12 +14,10 @@ const WorkExperience: React.FC<Props> = ({ workExperience }) => {
   return (
     <div className='work-experience'>
       <div className='work-experience-heading'>
-        <span className='work-experience-heading-employer'>
-          {workExperience.employer}
-        </span>{' '}
-        <span className='work-experience-heading-date'>
-          {workExperience.timeFrame}
-        </span>
+        <p>
+          {workExperience.employer + ' '} 
+          <small>{workExperience.timeFrame}</small>
+        </p>
       </div>
       <div className='work-experience-technologies'>
         <TechnologyList technologies={workExperience.technologies} />

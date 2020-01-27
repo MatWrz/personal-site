@@ -1,13 +1,13 @@
 .work-experience {
   padding: 0.2em 0;
   .work-experience-heading {
-    margin: 0.2em 0;
-  }
-  .work-experience-heading-employer {
     font-size: 1.4em;
-  }
-  .work-experience-heading-date {
-    color: rgba(0, 0, 0, 0.54);
+    margin: 0.2em 0;
+
+    small {
+      font-size: 0.8em;
+      color: rgba(0, 0, 0, 0.54);
+    }
   }
   .work-experience-accomplishments {
     padding-left: 1.4em;
