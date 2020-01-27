@@ -69,7 +69,7 @@ th {
     text-align: left; }
 
 .work-experience-section {
-  padding: 1.5em 0 0 0; }
+  padding-top: 1.5em; }
 
 body {
   background: white;
@@ -85,6 +85,7 @@ body {
 
 .footer {
   border-top: 1px solid rgba(0, 0, 0, 0.12);
+  margin-top: 0.2em;
   padding: 1em 0;
   text-align: center; }
   @media (max-width: 50em) {
@@ -103,7 +104,7 @@ body {
   margin: 0.2em 0; }
 
 .work-experience {
-  padding: 0.2em 0; }
+  padding: 0.1em 0; }
   .work-experience .work-experience-heading {
     font-size: 1.4em;
     margin: 0.2em 0; }
