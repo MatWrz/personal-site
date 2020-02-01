@@ -1,9 +1,12 @@
-.layout {
+.cv-layout {
   background: white;
-  margin: 0 auto;
-  max-width: 50em;
   font-family: 'Helvetica', 'Arial', sans-serif;
   color: #0b0c0c;
   line-height: 1.5;
-  padding: 1.5em 1em;
+
+  .cv-layout-a4 {
+    width: 21cm;
+    height: 29.7cm;
+    padding: 2em;
+  }
 }
