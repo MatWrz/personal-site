@@ -1,9 +1,6 @@
 // CSS styles reset
 @import '../node_modules/minireset.css/minireset.sass';
 
-// Pages
-@import './pages/home.scss';
-
 // Components
 @import './components/layout.scss';
 @import './components/cv_layout.scss';
@@ -15,3 +12,6 @@
 @import './components/work_experience_list.scss';
 @import './components/technology.scss';
 @import './components/technology_list.scss';
+@import './components/cv_header.scss';
+@import './components/key_skill.scss';
+@import './components/key_skill_list.scss';

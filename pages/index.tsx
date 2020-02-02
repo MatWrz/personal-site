@@ -5,7 +5,7 @@ import HeroBanner from '../components/HeroBanner'
 import Footer from '../components/Footer'
 import Heading from '../components/Heading'
 import WorkExperienceList from '../components/WorkExperienceList'
-import data from '../data/work_experience.json'
+import workExperienceData from '../data/work_experience.json'
 import { WorkExperience } from '../interfaces'
 
 const IndexPage: NextPage<{}> = () => {
@@ -14,7 +14,7 @@ const IndexPage: NextPage<{}> = () => {
     'I’m Mathieu Wrzesien, a software developer living in Montréal, currently working for'
   const EMPLOYER = 'Vention'
   const EMPLOYER_URL = 'https://www.vention.io'
-  const workExperiences: ReadonlyArray<WorkExperience> = data
+  const workExperiences: ReadonlyArray<WorkExperience> = workExperienceData
 
   return (
     <>
@@ -30,7 +30,7 @@ const IndexPage: NextPage<{}> = () => {
           />
         </header>
         <main>
-          <section className='work-experience-section'>
+          <section>
             <Heading text='Work Experience' />
             <WorkExperienceList workExperiences={workExperiences} />
           </section>

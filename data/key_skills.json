@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Java",
+    "competencyLevel": "Intermediate",
+    "years": "4",
+    "description": "Spring, JavaEE, Maven, Tomcat, Jetty, JUnit"
+  },
+  {
+    "title": "JavaScript",
+    "competencyLevel": "Intermediate",
+    "years": "4",
+    "description": "React, Vue, jQuery"
+  },
+  {
+    "title": "Web Development",
+    "competencyLevel": "Intermediate",
+    "years": "4",
+    "description": "HTML, CSS, LESS, SASS"
+  },
+  {
+    "title": "Shell Scripting",
+    "competencyLevel": "Intermediate",
+    "years": "5",
+    "description": "bash, zsh"
+  },
+  {
+    "title": "SQL/NoSQL",
+    "competencyLevel": "Intermediate",
+    "years": "4",
+    "description": "MySQL, PostgreSQL, MongoDB, Redis"
+  },
+  {
+    "title": "Linux/Unix",
+    "competencyLevel": "Advanced",
+    "years": "5",
+    "description": "Ubuntu, Debian, CentOS, RedHat"
+  },
+  {
+    "title": "Python",
+    "competencyLevel": "Intermediate",
+    "years": "2",
+    "description": "Developing shell tools"
+  },
+  {
+    "title": "Ruby",
+    "competencyLevel": "Beginner",
+    "years": "1",
+    "description": "Rails, RSpec"
+  },
+  {
+    "title": "PHP",
+    "competencyLevel": "Intermediate",
+    "years": "2",
+    "description": "Symfony, Code Igniter"
+  },
+  {
+    "title": "Standard Practices",
+    "competencyLevel": "Intermediate",
+    "years": "5",
+    "description": "Good working knowledge of standard tools and practices such as git, Docker, CI/CD, TDD, Jenkins"
+  }
+]
