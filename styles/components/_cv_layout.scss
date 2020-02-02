@@ -1,0 +1,18 @@
+.cv-layout {
+  background-color: #eee;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 14px;
+  color: #0b0c0c;
+  line-height: 1.5;
+  overflow: auto;
+
+  .cv-layout-a4 {
+    background-color: white;
+    width: 21cm;
+    height: 29.7cm;
+    padding: 2em;
+    max-width: 54em;
+    margin: 0.5em auto;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  }
+}

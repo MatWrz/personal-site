@@ -1,0 +1,9 @@
+.key-skill-list {
+  margin-top: 1em;
+  tr {
+    border-bottom: 1px solid #ddd;
+  }
+  tr:last-child {
+    border-bottom: none;
+  }
+}

@@ -5,7 +5,7 @@ interface Props {
   readonly children?: any
 }
 
-const Layout: React.FC<Props> = ({ children }) => {
+const CVLayout: React.FC<Props> = ({ children }) => {
   return (
     <>
       <Head>
@@ -16,9 +16,11 @@ const Layout: React.FC<Props> = ({ children }) => {
         <meta name='theme-color' content='#0069A0' />
         <link rel='shortcut icon' type='image/x-icon' href='/img/favicon.png' />
       </Head>
-      <div className='layout'>{children}</div>
+      <div className='cv-layout'>
+        <div className='cv-layout-a4'>{children}</div>
+      </div>
     </>
   )
 }
 
-export default Layout
+export default CVLayout
