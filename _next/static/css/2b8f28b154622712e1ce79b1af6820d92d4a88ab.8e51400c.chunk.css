@@ -68,11 +68,8 @@ th {
   th:not([align]) {
     text-align: left; }
 
-.work-experience-section {
-  padding-top: 1.5em; }
-
-body {
-  background: white;
+.layout {
+  background-color: white;
   margin: 0 auto;
   max-width: 50em;
   font-family: 'Helvetica', 'Arial', sans-serif;
@@ -80,12 +77,28 @@ body {
   line-height: 1.5;
   padding: 1.5em 1em; }
 
+.cv-layout {
+  background-color: #eee;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 14px;
+  color: #0b0c0c;
+  line-height: 1.5;
+  overflow: auto; }
+  .cv-layout .cv-layout-a4 {
+    background-color: white;
+    width: 21cm;
+    height: 29.7cm;
+    padding: 2em;
+    max-width: 54em;
+    margin: 0.5em auto;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2); }
+
 .hero-banner h1 {
   line-height: 1.2;
   font-size: 2em; }
 
 .footer {
-  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-top: 1px solid black;
   margin-top: 0.2em;
   padding: 1em 0;
   text-align: center; }
@@ -99,10 +112,11 @@ body {
     color: #2b8cc4; }
 
 .heading {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid black;
   font-weight: bold;
   font-size: 1.6em;
-  margin: 0.2em 0; }
+  padding: 1.5em 0 0.2em 0;
+  margin-bottom: 0.4em; }
 
 .work-experience {
   padding: 0.1em 0; }
@@ -129,4 +143,18 @@ body {
 
 .technology-list li {
   display: inline-block; }
+
+.cv-header {
+  text-align: center; }
+
+.key-skill td {
+  padding: 0.2em 0.5em;
+  min-width: 7em; }
+
+.key-skill-list {
+  margin-top: 1em; }
+  .key-skill-list tr {
+    border-bottom: 1px solid #ddd; }
+  .key-skill-list tr:last-child {
+    border-bottom: none; }
 
