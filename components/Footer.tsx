@@ -11,7 +11,7 @@ const Footer: React.FC<Props> = ({ email, linkedinUrl }) => {
     <footer className='footer'>
       <Anchor anchor={email} />
       <p>
-        CV:{' '}
+        {'CV: '}
         <Anchor
           anchor={{
             href: '/CV-Mathieu-Wrzesien.pdf',
