@@ -163,8 +163,7 @@ th {
   display: grid;
   gap: 24px;
   grid-template-columns: 100px auto;
-  align-items: center;
-  font-size: 1.1em; }
+  align-items: center; }
 
 .education-list {
   display: grid;
@@ -185,7 +184,4 @@ th {
       max-width: none;
       box-shadow: none;
       height: auto; } }
-
-.language {
-  font-size: 1.1em; }
 
