@@ -99,7 +99,7 @@ th {
   margin-top: 0.2em;
   padding: 1em 0;
   text-align: center; }
-  .footer a {
+  .footer > a {
     display: block; }
   @media (max-width: 50em) {
     .footer {
