@@ -10,8 +10,8 @@ const Footer: React.FC<Props> = ({ email, linkedinUrl }) => {
   return (
     <footer className='footer'>
       <Anchor anchor={email} />
-      <br />
       <Anchor anchor={{ href: linkedinUrl, text: 'LinkedIn' }} />
+      <Anchor anchor={{ href: '/cv', text: 'CV' }} />
     </footer>
   )
 }
