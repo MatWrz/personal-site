@@ -5,7 +5,6 @@ const CVHeader: React.FC<CVHeaderInfo> = ({
   fullName,
   email,
   website,
-  address,
   city,
   province,
   country,
@@ -29,7 +28,7 @@ const CVHeader: React.FC<CVHeaderInfo> = ({
           }}
         />
       </p>
-      <p>{`${address} | ${city}, ${province}, ${country}`}</p>
+      <p>{`${city}, ${province}, ${country}`}</p>
       <p>{phoneNumber}</p>
     </div>
   )

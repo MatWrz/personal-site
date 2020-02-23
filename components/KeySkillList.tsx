@@ -8,8 +8,8 @@ interface Props {
 
 const KeySkillList: React.FC<Props> = ({ keySkills }) => {
   function displayKeySkill(keySkills: ReadonlyArray<keySkill>) {
-    return keySkills.map(keySkill => {
-      return <KeySkill keySkill={keySkill} />
+    return keySkills.map((keySkill, index) => {
+      return <KeySkill key={index} keySkill={keySkill} />
     })
   }
   return (

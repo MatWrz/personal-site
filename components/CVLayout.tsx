@@ -15,8 +15,14 @@ const CVLayout: React.FC<Props> = ({ children }) => {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <meta name='theme-color' content='#0069A0' />
         <link rel='shortcut icon' type='image/x-icon' href='/img/favicon.png' />
+        <style> </style>
       </Head>
       <div className='cv-layout'>
+        <style jsx>{`
+          @page {
+            margin: 2em 0 0;
+          }
+        `}</style>
         <div className='cv-layout-a4'>{children}</div>
       </div>
     </>

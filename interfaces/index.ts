@@ -7,7 +7,6 @@ export type CVHeaderInfo = {
   readonly fullName: string
   readonly email: string
   readonly website: string
-  readonly address: string
   readonly city: string
   readonly province: string
   readonly country: string
