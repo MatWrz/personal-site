@@ -26,3 +26,14 @@ export type WorkExperience = {
   readonly technologies: ReadonlyArray<string>
   readonly accomplishments: ReadonlyArray<string>
 }
+
+export type Education = {
+  readonly timePeriod: string
+  readonly school: string
+  readonly degree: string
+}
+
+export type Language = {
+  readonly name: string
+  readonly description: string
+}

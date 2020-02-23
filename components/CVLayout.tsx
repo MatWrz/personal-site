@@ -23,7 +23,7 @@ const CVLayout: React.FC<Props> = ({ children }) => {
             margin: 2em 0 0;
           }
         `}</style>
-        <div className='cv-layout-a4'>{children}</div>
+        {children}
       </div>
     </>
   )

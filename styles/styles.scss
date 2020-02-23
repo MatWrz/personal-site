@@ -1,17 +1,22 @@
 // CSS styles reset
-@import '../node_modules/minireset.css/minireset.sass';
+@import '../node_modules/minireset.css/minireset';
 
 // Components
-@import './components/layout.scss';
-@import './components/cv_layout.scss';
-@import './components/hero_banner.scss';
-@import './components/footer.scss';
-@import './components/anchor.scss';
-@import './components/heading.scss';
-@import './components/work_experience.scss';
-@import './components/work_experience_list.scss';
-@import './components/technology.scss';
-@import './components/technology_list.scss';
-@import './components/cv_header.scss';
-@import './components/key_skill.scss';
-@import './components/key_skill_list.scss';
+@import './components/layout';
+@import './components/cv_layout';
+@import './components/hero_banner';
+@import './components/footer';
+@import './components/anchor';
+@import './components/heading';
+@import './components/work_experience';
+@import './components/work_experience_list';
+@import './components/technology';
+@import './components/technology_list';
+@import './components/cv_header';
+@import './components/key_skill';
+@import './components/key_skill_list';
+@import './components/education';
+@import './components/education_list';
+@import './components/cv_page';
+@import './components/language';
+@import './components/language_list';

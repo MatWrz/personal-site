@@ -1,17 +1,18 @@
 import React from 'react'
 import { KeySkill as keySkill } from '../interfaces'
 
-interface Props {
-  readonly keySkill: keySkill
-}
-
-const KeySkill: React.FC<Props> = ({ keySkill }) => {
+const KeySkill: React.FC<keySkill> = ({
+  title,
+  competencyLevel,
+  years,
+  description
+}) => {
   return (
     <tr className='key-skill'>
-      <td>{keySkill.title}</td>
-      <td>{keySkill.competencyLevel}</td>
-      <td>{keySkill.years} years</td>
-      <td>{keySkill.description}</td>
+      <td>{title}</td>
+      <td>{competencyLevel}</td>
+      <td>{years} years</td>
+      <td>{description}</td>
     </tr>
   )
 }

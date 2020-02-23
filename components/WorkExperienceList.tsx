@@ -1,6 +1,5 @@
 import { WorkExperience as workExperience } from '../interfaces'
 import WorkExperience from './WorkExperience'
-import Heading from './Heading'
 
 interface Props {
   readonly workExperiences: ReadonlyArray<workExperience>
@@ -11,7 +10,7 @@ const WorkExperienceList: React.FC<Props> = ({ workExperiences }) => {
     workExperiences: ReadonlyArray<workExperience>
   ) {
     return workExperiences.map((workExperience, index) => (
-      <WorkExperience key={index} workExperience={workExperience} />
+      <WorkExperience key={index} {...workExperience} />
     ))
   }
   return (

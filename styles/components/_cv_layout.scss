@@ -10,23 +10,6 @@
     background-color: #fff;
   }
 
-  .cv-layout-a4 {
-    background-color: white;
-    width: 21cm;
-    height: 29.7cm;
-    padding: 2em;
-    margin: 0.5em auto;
-    max-width: 54em;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
-
-    @media print {
-      padding: 0 1cm;
-      margin: 0;
-      max-width: none;
-      box-shadow: none;
-    }
-  }
-
   .technology {
     font-size: 1em;
   }
