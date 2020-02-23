@@ -101,10 +101,8 @@ th {
         margin: 0;
         max-width: none;
         box-shadow: none; } }
-
-@page {
-  margin: 0;
-  margin-top: 2em; }
+  .cv-layout .technology {
+    font-size: 1em; }
 
 .hero-banner h1 {
   line-height: 1.2;
@@ -148,7 +146,7 @@ th {
 
 .technology {
   font-size: 0.8em;
-  padding: 0.5em;
+  padding: 0.4em;
   border: 1px solid #666;
   background-color: #f7f7f7;
   margin: 0.3em;
