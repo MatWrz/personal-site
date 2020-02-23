@@ -87,20 +87,6 @@ th {
   @media print {
     .cv-layout {
       background-color: #fff; } }
-  .cv-layout .cv-layout-a4 {
-    background-color: white;
-    width: 21cm;
-    height: 29.7cm;
-    padding: 2em;
-    margin: 0.5em auto;
-    max-width: 54em;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2); }
-    @media print {
-      .cv-layout .cv-layout-a4 {
-        padding: 0 1cm;
-        margin: 0;
-        max-width: none;
-        box-shadow: none; } }
   .cv-layout .technology {
     font-size: 1em; }
 
@@ -170,4 +156,34 @@ th {
     border-bottom: 1px solid #ddd; }
   .key-skill-list tr:last-child {
     border-bottom: none; }
+
+.education {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 100px auto;
+  align-items: center;
+  font-size: 1.1em; }
+
+.education-list {
+  display: grid;
+  row-gap: 14px; }
+
+.cv-page {
+  background-color: white;
+  width: 21cm;
+  height: 29.7cm;
+  padding: 2em;
+  margin: 0.5em auto;
+  max-width: 54em;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2); }
+  @media print {
+    .cv-page {
+      padding: 0 1cm;
+      margin: 0;
+      max-width: none;
+      box-shadow: none;
+      height: auto; } }
+
+.language {
+  font-size: 1.1em; }
 
