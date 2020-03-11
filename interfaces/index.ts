@@ -22,6 +22,7 @@ export type KeySkill = {
 
 export type WorkExperience = {
   readonly employer: string
+  readonly position: string
   readonly timeFrame: string
   readonly technologies: ReadonlyArray<string>
   readonly accomplishments: ReadonlyArray<string>

@@ -1,6 +1,7 @@
 [
   {
     "employer": "Vention",
+    "position": "Full Stack Developer",
     "timeFrame": "Nov. 2019 - Present",
     "technologies": ["Rails", "TypeScript", "React", "PostgreSQL"],
     "accomplishments": [
@@ -11,6 +12,7 @@
   },
   {
     "employer": "Bell Media",
+    "position": "Software Developer",
     "timeFrame": "Feb. 2017 - Oct. 2019",
     "technologies": ["Java", "Spring", "JavaScript", "MySQL", "Jenkins"],
     "accomplishments": [
@@ -22,6 +24,7 @@
   },
   {
     "employer": "Ubisoft",
+    "position": "Online Programmer",
     "timeFrame": "2016 Internship",
     "technologies": ["JavaScript", "Node", "Swagger"],
     "accomplishments": [

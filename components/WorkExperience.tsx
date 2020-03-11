@@ -3,6 +3,7 @@ import TechnologyList from './TechnologyList'
 
 const WorkExperience: React.FC<workExperience> = ({
   employer,
+  position,
   timeFrame,
   technologies,
   accomplishments
@@ -16,7 +17,7 @@ const WorkExperience: React.FC<workExperience> = ({
     <div className='work-experience'>
       <div className='work-experience-heading'>
         <p>
-          {employer + ' '}
+          {`${employer} - ${position} `}
           <small>{timeFrame}</small>
         </p>
       </div>
