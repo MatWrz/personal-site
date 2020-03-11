@@ -2,7 +2,7 @@
   {
     "title": "Java",
     "competencyLevel": "Intermediate",
-    "years": "4",
+    "years": "5",
     "description": "Spring, JavaEE, Maven, Tomcat, Jetty, JUnit"
   },
   {
@@ -31,7 +31,7 @@
   },
   {
     "title": "Linux/Unix",
-    "competencyLevel": "Advanced",
+    "competencyLevel": "Intermediate",
     "years": "5",
     "description": "Ubuntu, Debian, CentOS, RedHat"
   },
