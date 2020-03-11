@@ -8,6 +8,10 @@
 
   @media print {
     background-color: #fff;
+
+    .work-experience:nth-of-type(2) {
+      padding-bottom: 80px;
+    }
   }
 
   .technology {
