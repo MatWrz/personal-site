@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import '../styles/styles.scss'
 
 interface Props {
   readonly children?: any

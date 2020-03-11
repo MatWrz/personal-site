@@ -10,12 +10,11 @@
     "export": "next export"
   },
   "dependencies": {
-    "@zeit/next-sass": "^1.0.1",
     "minireset.css": "^0.0.6",
-    "next": "^9.2.0",
-    "node-sass": "^4.13.1",
+    "next": "^9.3.0",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "sass": "^1.26.2"
   },
   "devDependencies": {
     "@types/node": "^13.1.8",

@@ -8,13 +8,24 @@ import WorkExperienceList from '../components/WorkExperienceList'
 import workExperienceData from '../data/work_experience.json'
 import { WorkExperience } from '../interfaces'
 
-const IndexPage: NextPage<{}> = () => {
+interface Props {
+  readonly workExperiences: ReadonlyArray<WorkExperience>
+}
+
+export async function getStaticProps(): Promise<{ props: Props }> {
+  return {
+    props: {
+      workExperiences: workExperienceData
+    }
+  }
+}
+
+const IndexPage: NextPage<Props> = ({ workExperiences }) => {
   const EMAIL = 'mathieu.wrzesien@outlook.com'
   const INTRO_TEXT =
     'I’m Mathieu Wrzesien, a software developer living in Montréal, currently working for'
   const EMPLOYER = 'Vention'
   const EMPLOYER_URL = 'https://www.vention.io'
-  const workExperiences: ReadonlyArray<WorkExperience> = workExperienceData
 
   return (
     <>

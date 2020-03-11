@@ -17,12 +17,30 @@ import CVPageSection from '../components/CVPageSection'
 import { Language } from '../interfaces'
 import LanguageList from '../components/LanguageList'
 
-const CVHeaderProps: CVHeaderInfo = cvHeaderData
-const workExperiences: ReadonlyArray<WorkExperience> = workExperienceData
-const educations: ReadonlyArray<Education> = educationData
-const languages: ReadonlyArray<Language> = languageData
+interface Props {
+  readonly cvHeader: CVHeaderInfo
+  readonly workExperiences: ReadonlyArray<WorkExperience>
+  readonly educations: ReadonlyArray<Education>
+  readonly languages: ReadonlyArray<Language>
+}
 
-const CVPage: NextPage<{}> = () => {
+export async function getStaticProps(): Promise<{ props: Props }> {
+  return {
+    props: {
+      cvHeader: cvHeaderData,
+      workExperiences: workExperienceData,
+      educations: educationData,
+      languages: languageData
+    }
+  }
+}
+
+const CVPage: NextPage<Props> = ({
+  cvHeader,
+  workExperiences,
+  educations,
+  languages
+}) => {
   return (
     <>
       <Head>
@@ -32,7 +50,7 @@ const CVPage: NextPage<{}> = () => {
       <CVLayout>
         <main>
           <CVPageSection>
-            <CVHeader {...CVHeaderProps} />
+            <CVHeader {...cvHeader} />
             <section>
               <Heading text='Key Skills' />
               <KeySkillList keySkills={keySkillsData}></KeySkillList>
