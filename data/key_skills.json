@@ -15,13 +15,13 @@
     "title": "Web Development",
     "competencyLevel": "Intermediate",
     "years": "4",
-    "description": "HTML, CSS, LESS, SASS"
+    "description": "HTML, CSS, Less, Sass"
   },
   {
     "title": "Shell Scripting",
     "competencyLevel": "Intermediate",
     "years": "5",
-    "description": "bash, zsh"
+    "description": "Bash, Zsh"
   },
   {
     "title": "SQL/NoSQL",
