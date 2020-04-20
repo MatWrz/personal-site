@@ -49,7 +49,7 @@ const IndexPage: NextPage<Props> = ({ workExperiences }) => {
         <Footer
           email={{
             href: 'mailto:' + EMAIL,
-            text: EMAIL
+            text: 'Email'
           }}
           linkedinUrl='https://www.linkedin.com/in/mathieu-wrzesien-93763890/'
         />
