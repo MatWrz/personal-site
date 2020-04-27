@@ -15,8 +15,8 @@ interface Props {
 export async function getStaticProps(): Promise<{ props: Props }> {
   return {
     props: {
-      workExperiences: workExperienceData
-    }
+      workExperiences: workExperienceData,
+    },
   }
 }
 
@@ -24,8 +24,8 @@ const IndexPage: NextPage<Props> = ({ workExperiences }) => {
   const EMAIL = 'mathieu.wrzesien@outlook.com'
   const INTRO_TEXT =
     'I’m Mathieu Wrzesien, a software developer living in Montréal, currently working for'
-  const EMPLOYER = 'Vention'
-  const EMPLOYER_URL = 'https://www.vention.io'
+  const EMPLOYER = 'Bell Media'
+  const EMPLOYER_URL = 'https://www.bellmedia.ca'
 
   return (
     <>
@@ -49,7 +49,7 @@ const IndexPage: NextPage<Props> = ({ workExperiences }) => {
         <Footer
           email={{
             href: 'mailto:' + EMAIL,
-            text: 'Email'
+            text: 'Email',
           }}
           linkedinUrl='https://www.linkedin.com/in/mathieu-wrzesien-93763890/'
         />

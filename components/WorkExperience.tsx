@@ -24,9 +24,11 @@ const WorkExperience: React.FC<workExperience> = ({
       <div className='work-experience-technologies'>
         <TechnologyList technologies={technologies} />
       </div>
-      <div className='work-experience-accomplishments'>
-        <ul>{displayAccomplishments(accomplishments)}</ul>
-      </div>
+      {accomplishments && (
+        <div className='work-experience-accomplishments'>
+          <ul>{displayAccomplishments(accomplishments)}</ul>
+        </div>
+      )}
     </div>
   )
 }

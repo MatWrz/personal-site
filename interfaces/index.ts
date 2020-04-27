@@ -25,7 +25,7 @@ export type WorkExperience = {
   readonly position: string
   readonly timeFrame: string
   readonly technologies: ReadonlyArray<string>
-  readonly accomplishments: ReadonlyArray<string>
+  readonly accomplishments?: ReadonlyArray<string>
 }
 
 export type Education = {

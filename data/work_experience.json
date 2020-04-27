@@ -1,8 +1,14 @@
 [
   {
+    "employer": "Bell Media",
+    "position": "Senior Solutions Architect",
+    "timeFrame": "Apr. 2020 - Present",
+    "technologies": ["Java", "Javascript"]
+  },
+  {
     "employer": "Vention",
     "position": "Full Stack Developer",
-    "timeFrame": "Nov. 2019 - Present",
+    "timeFrame": "Nov. 2019 - Apr. 2020",
     "technologies": ["Rails", "TypeScript", "React", "PostgreSQL"],
     "accomplishments": [
       "Developing an ecommerce platform for a self-serve web-based CAD.",
