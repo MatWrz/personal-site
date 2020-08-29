@@ -11,7 +11,7 @@ const KeySkill: React.FC<keySkill> = ({
     <tr className='key-skill'>
       <td>{title}</td>
       <td>{competencyLevel}</td>
-      <td>{years} years</td>
+      <td className="key-skill-years">{years} {years > 1 ? "years" : "year"}</td>
       <td>{description}</td>
     </tr>
   )
