@@ -16,7 +16,7 @@ export type CVHeaderInfo = {
 export type KeySkill = {
   readonly title: string
   readonly competencyLevel: string
-  readonly years: string
+  readonly years: number
   readonly description: string
 }
 

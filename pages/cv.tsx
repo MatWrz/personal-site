@@ -57,10 +57,13 @@ const CVPage: NextPage<Props> = ({
             </section>
             <section>
               <Heading text='Work Experience' />
-              <WorkExperienceList workExperiences={workExperiences} />
+              <WorkExperienceList workExperiences={workExperiences.slice(0,3)} />
             </section>
           </CVPageSection>
           <CVPageSection>
+            <section>
+              <WorkExperienceList workExperiences={workExperiences.slice(3,workExperiences.length)} />
+            </section>
             <section>
               <Heading text='Education' />
               <EducationList educations={educations}></EducationList>
