@@ -9,7 +9,7 @@
     "title": "JavaScript",
     "competencyLevel": "Intermediate",
     "years": 4,
-    "description": "React, Vue, jQuery"
+    "description": "Typescript, React, Vue, jQuery"
   },
   {
     "title": "Web Development",
@@ -43,7 +43,7 @@
   },
   {
     "title": "Ruby",
-    "competencyLevel": "Beginner",
+    "competencyLevel": "Intermediate",
     "years": 1,
     "description": "Rails, RSpec"
   },
