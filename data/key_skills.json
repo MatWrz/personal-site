@@ -49,14 +49,14 @@
   },
   {
     "title": "PHP",
-    "competencyLevel": "Intermediate",
-    "years": 2,
+    "competencyLevel": "Beginner",
+    "years": 1,
     "description": "Symfony, Code Igniter"
   },
   {
     "title": "Standard Practices",
     "competencyLevel": "Intermediate",
     "years": 5,
-    "description": "Good working knowledge of standard tools and practices such as git, Docker, CI/CD, TDD, Jenkins"
+    "description": "Good working knowledge of standard tools and practices such as Git, Docker, CI/CD, Test-driven Development, Jenkins"
   }
 ]

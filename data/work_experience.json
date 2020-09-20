@@ -5,9 +5,10 @@
     "timeFrame": "Apr. 2020 - Present",
     "technologies": ["Java", "Spring", "Javascript"],
     "accomplishments": [
-      "Lead the development of large-scale media, entertainment and lifestyle websites.",
+      "Lead the design and development of large-scale media, entertainment and lifestyle websites.",
       "Engaging with teams across Bell Media to plan and execute future projects",
-      "Developing a shared codebase to be used across Bell Media brands."
+      "Developing a shared codebase to be used across Bell Media brands.",
+      "Lead and participate in solution design sessions."
     ]
   },
   {
@@ -28,7 +29,8 @@
     "technologies": ["Java", "Spring", "JavaScript", "MySQL", "Jenkins"],
     "accomplishments": [
       "Developing web applications to support numerous large-scale media, entertainment and lifestyle websites.",
-      "Supporting and improving existing web applications such as a CMS, radio scheduling application, audio upload application, and more."
+      "Supporting and improving existing web applications such as a CMS, radio scheduling application, audio upload application, and more.",
+      "Write unit, integration, and end-to-end tests."
     ]
   },
   {
