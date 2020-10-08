@@ -10,12 +10,6 @@ const Footer: React.FC<Props> = ({ email, linkedinUrl }) => {
   return (
     <footer className='footer'>
       <Anchor anchor={email} />
-        <Anchor
-          anchor={{
-            href: '/CV-Mathieu-Wrzesien.pdf',
-            text: 'CV'
-          }}
-        />
       <Anchor anchor={{ href: linkedinUrl, text: 'LinkedIn' }} />
     </footer>
   )
