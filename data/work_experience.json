@@ -1,5 +1,11 @@
 [
   {
+    "employer": "Shopify",
+    "position": "Senior Developer",
+    "timeFrame": "Jan. 2021 - Present",
+    "technologies": ["Rails"]
+  },
+  {
     "employer": "Bell Media",
     "position": "Senior Solutions Architect",
     "timeFrame": "Apr. 2020 - Jan. 2021",

@@ -24,8 +24,8 @@ const IndexPage: NextPage<Props> = ({ workExperiences }) => {
   const EMAIL = 'mathieu.wrzesien@outlook.com'
   const INTRO_TEXT =
     'I’m Mathieu Wrzesien, a software developer living in Montréal, currently working for'
-  const EMPLOYER = 'Bell Media'
-  const EMPLOYER_URL = 'https://www.bellmedia.ca'
+  const EMPLOYER = 'Shopify'
+  const EMPLOYER_URL = 'https://www.shopify.com/'
 
   return (
     <>
